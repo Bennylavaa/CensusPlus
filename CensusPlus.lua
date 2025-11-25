@@ -2355,7 +2355,7 @@ function CensusPlus_ProcessWhoResults()
 		--
 		--  Test the name for possible color coding
 		--
-		--  for example |cffff0000Rollie|r
+		--  for example |cffff0000Bennylava|r
         local karma_check = string.find( name, "|cff" );
         if( karma_check ~= nil ) then
 			name = string.sub( name, 11, -3 );
@@ -2474,7 +2474,7 @@ CensusPlus_Msg2( "Processing " .. name );
 	--
 	--  Test the name for possible color coding
 	--
-	--  for example |cffff0000Rollie|r
+	--  for example |cffff0000Bennylava|r
     local karma_check = string.find( name, "|cff" );
     if( karma_check ~= nil ) then
 		name = string.sub( name, 11, -3 );
@@ -2492,7 +2492,7 @@ CensusPlus_Msg2( "Processing " .. name );
     --  Do a race check just to be sure this is working
     --
     if( g_FactionCheck[race] == nil ) then
-		CensusPlus_Msg( "Found an unknown race (" .. race .. "), please tell Rollie at WarcraftRealms.com" );
+		CensusPlus_Msg( "Found an unknown race (" .. race .. "), please tell Bennylava at https://github.com/Bennylavaa/CensusPlus/issues" );
 		return;
     end
 
@@ -3304,7 +3304,7 @@ function CensusPlus_SelectLocale( locale, auto )
     if(( CENSUSPlus_DWARF == "Nain" or CENSUSPlus_DWARF == "Zwerg" ) and GetLocale() == "usEN") then
 		CensusPlus_Msg( "You appear to have a US Census version, yet your localization is set to French or German." );
 		CensusPlus_Msg( "Please do not upload stats to WarcraftRealms until this has been resolved." );
-		CensusPlus_Msg( "If this is incorrect, please let Rollie know at www.WarcraftRealms.com about your situation so he can make corrections." );
+		CensusPlus_Msg( "If this is incorrect, please let Bennylava know at https://github.com/Bennylavaa/CensusPlus/issues about your situation so he can make corrections." );
     end
 
 	CP_EU_US_Version:Hide();
@@ -3832,7 +3832,7 @@ test[16] = "|Hplayer:Seroa|h[Seroa]|h: Level 67 Night Elf Paladin - Nagrand";
 		CensusPlus_Msg( "This name is problematic => " .. name );
     end
 
-	name = "Rollie";
+	name = "Bennylava";
     if( string.find( name, pattern ) ~= nil ) then
 		CensusPlus_Msg( "This name is problematic => " .. name );
 	else

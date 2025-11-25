@@ -95,5 +95,5 @@ CensusPlus is released under the GNU General Public License v2. See GPL.txt for 
 
 ## Credits
 
-Created by Ian Pieragostini
+Created by: Ian Pieragostini
 Modified By: Cooper Sellers (Rollie of Bloodscalp), Project Epoch Team, Bennylavaa
