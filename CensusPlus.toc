@@ -1,0 +1,12 @@
+## Interface: 30300
+## Version: 5.0.0-Epoch
+## Title: Epoch Census (Cross-Faction)
+## Notes: Cross-faction census tool for Project Epoch. Modified to show all race/class combinations.
+## Original Author: Ian Pieragostini
+## Modified By: Cooper Sellers, Project Epoch Team, Bennylavaa
+## SavedVariables: CensusPlus_Database,CensusPlus_BGInfo,CensusPlus_Unhandled
+## SavedVariablesPerCharacter: CensusPlus_DoThisCharacter,CensusPlus_PerCharInfo
+
+CensusPlus.xml
+CensusButton.xml
+CensusPlayerList.xml
