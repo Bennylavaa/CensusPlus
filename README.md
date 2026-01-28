@@ -1,5 +1,7 @@
 # CensusPlus
 
+**NOTE: I no longer play on Project Epoch and this will not recieve any further updates, feel free to fork this repo an continue development.**
+
 A World of Warcraft addon that lets you survey and analyze your realm's player population in real-time.
 
 ## What is CensusPlus?
